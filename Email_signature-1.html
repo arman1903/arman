@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Email Signature</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        .area {
+            width: 960px;
+            height: 500px;
+            background: #fff;
+            margin: 0 auto;
+            margin-top: 80px;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+        }
+
+        .area .profile {
+            width: 360px;
+            height: 100%;
+            background: #ddd;
+            position: relative;
+        }
+
+        .area .profile::before {
+            position: absolute;
+            content: '';
+            right: 0;
+            top: 100px;
+            width: 4px;
+            height: 300px;
+            background: #486bfc;
+        }
+
+        .area .profile .image {
+            width: 200px;
+            height: 200px;
+            margin-top: 100px;
+            margin-left: 100px;
+            border-radius: 50%;
+        }
+
+        .area .profile .image img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+
+        .area .profile .social {
+            margin-top: 30px;
+        }
+
+        .area .profile .social ul {
+            list-style-type: none;
+            float: right;
+            margin-right: 30px;
+        }
+
+        .area .profile .social ul li {
+            float: left;
+        }
+
+        .area .profile .social ul li a {
+            font-size: 25px;
+            background: #5162f0;
+            color: #fff;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            display: inline-block;
+            margin-right: 10px;
+            margin-left: 10px;
+            border-radius: 50%;
+        }
+
+        .area .about {
+            width: 600px;
+            height: 100%;
+            background: #ccc;
+            padding-left: 50px;
+        }
+
+        .area .about h2 {
+            margin-top: 100px;
+            font-size: 36px;
+            color: #393e4d;
+            margin-bottom: 15px;
+            font-family: sans-serif;
+        }
+
+        .area .about h6 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .area .about p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .area .about hr {
+            color: #ff6b00;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .area .about ul {
+            list-style-type: none;
+            float: left;
+        }
+
+        .area .about ul li{
+            color: #ff6b00;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            font-size: 20px;
+        }
+
+        .area .about ul li span {
+            font-size: 20px;
+            color: #222;
+            letter-spacing: 1px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="area">
+        <div class="profile">
+            <div class="image">
+                <a href="https://ibb.co/YpCNNSy"><img src="https://i.ibb.co/TmfwwGb/arman1903.jpg" alt="arman1903" border="0"></a>
+            </div>
+            <div class="social">
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="about">
+            <h2>Md Arman Hossen</h2>
+            <h6>Web designer</h6>
+            <p>Creative It Institure</p>
+            <hr>
+            <ul>
+                <li>
+                    <i class="fas fa-phone-alt"></i>
+                    <span>&nbsp; 01990710296</span>
+                </li>
+                <li>
+                    <i class="fas fa-envelope"></i>
+                    <span>&nbsp; armanhossen470@gmail.com</span>
+                </li>
+                <li>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>&nbsp; Noapara,Abhaynagar,Jessore</span>
+                </li>
+                <li>
+                    <i class="fas fa-link"></i>
+                    <span>&nbsp; http://armanwd.cf/</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/js/all.min.js">
+</body>
+
+</html>
